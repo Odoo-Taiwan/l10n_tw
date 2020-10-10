@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>  
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="name">l10n_tw_city.res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="city" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="state_id" position="after">
+                <field name="city_id" placeholder="City" class="o_address_city" options="{'no_open': True, 'no_quick_create': True}" attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" context="{'country_id': country_id, 'default_country_id': country_id, 'state_id': state_id}" />
+            </field>
+        </field>
+    </record>
+</odoo>

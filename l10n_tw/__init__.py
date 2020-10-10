@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Copyright (C) 2020 Mick Tseng, Odoo Taiwan - suncombo@gmail.com
 
 
 def uninstall_hook(cr, registry):
     cr.execute(
-        "DELETE FROM ir_model_data WHERE module = 'l10n_generic_coa'"
+        "DELETE FROM ir_model_data WHERE module = 'l10n_tw'"
     )
