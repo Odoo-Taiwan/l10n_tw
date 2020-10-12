@@ -11,6 +11,7 @@
     """,
     'depends': [
         'base_address_city',
+        'l10n_tw',
     ],
     'data': [
         'data/res.city.csv',
