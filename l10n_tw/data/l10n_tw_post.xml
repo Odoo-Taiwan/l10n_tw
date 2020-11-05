@@ -99,7 +99,7 @@
         ]"/>
     </record>
 
-    <record id="account_type_composite_income" model="account.account.type">
+<!--     <record id="account_type_composite_income" model="account.account.type">
         <field name="name">綜合損益</field>
         <field name="type">other</field>
         <field name="internal_group">income</field>
@@ -108,7 +108,7 @@
         <field name="name">當本年度收入</field>
         <field name="type">other</field>
         <field name="internal_group">equity</field>
-    </record>
+    </record> -->
 
     <!-- Try to instanciate for relevant companies -->
 </data>
