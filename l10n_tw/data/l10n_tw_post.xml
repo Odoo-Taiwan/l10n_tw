@@ -74,7 +74,7 @@
         <field name="amount">5</field>
         <field name="type_tax_use">sale</field>
         <field name="price_include" eval="True"/>
-        <field name="tax_group_id" ref="add_tax" />
+        <field name="include_base_amount" eval="True"/>
         <field name="tax_group_id" ref="tax_group_5"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
             (0,0, {
@@ -138,7 +138,7 @@
         <field name="amount">5</field>
         <field name="type_tax_use">purchase</field>
         <field name="price_include" eval="True"/>
-        <field name="tax_group_id" ref="add_tax" />
+        <field name="include_base_amount" eval="True"/>
         <field name="tax_group_id" ref="tax_group_5"/>
         <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
             (0,0, {
