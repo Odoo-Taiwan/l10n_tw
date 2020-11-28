@@ -3,7 +3,7 @@
 
 {
     'name': 'Taiwan - Accounting',
-    'author': ['Mick Tseng, Odoo Taiwan'],
+    'author': ['Odoo Taiwan'],
     'website': 'https://www.facebook.com/groups/odoo.taiwan',
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
